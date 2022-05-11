@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#"
+     xml:base="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CulturalKnowledgeGraph="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gossipers</contains>
+        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priests and Priestesses</contains>
+        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spies</contains>
+        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storytellers</contains>
+        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whisperers</contains>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief">
+        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
