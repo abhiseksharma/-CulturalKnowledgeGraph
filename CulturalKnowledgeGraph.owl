@@ -1,730 +1,1480 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#"
-     xml:base="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:CulturalKnowledgeGraph="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains -->
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension"/>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"/>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gossipers</contains>
-        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priests and Priestesses</contains>
-        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spies</contains>
-        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storytellers</contains>
-        <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whisperers</contains>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief">
-        <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-    </owl:NamedIndividual>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Paraguay">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Colombia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UnitedKingdom">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SierraLeone">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Norway">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Slovenia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Armenia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Venezuela">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kuwait">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Chile">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Sweden">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Brazil">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BurkinaFaso">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TrinidadandTobago">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BelgiumFrench">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Andorra">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Nigeria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Tanzania">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UnitedArabEmirates">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bangladesh">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bolivia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Morocco">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iraq">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Azerbaijan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Spain">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Qatar">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Nepal">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BelgiumNetherl">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Luxembourg">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CanadaFrench">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Pakistan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Angola">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Arabcountries">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Vietnam">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthKorea">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Belgium">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthAfricawhite">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kazakhstan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Albania">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ireland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Uganda">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthAfrica">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CapeVerde">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SwitzerlandGerman">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Zambia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NewZealand">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BosniaandHerzegovina">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Estonia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#France">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Montenegro">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Australia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bhutan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Denmark">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Hungary">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Libya">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Lebanon">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mozambique">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AfricaEast">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AfricaWest">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Jordan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Zimbabwe">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</indulgenceVersusRestraintValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</longtermVersusShorttermOrientationValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Peru">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Italy">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iran">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Egypt">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Guatemala">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Namibia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</longtermVersusShorttermOrientationValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Finland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SwitzerlandFrench">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#China">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Austria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Cyprus">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mexico">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SlovakRep">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malta">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Japan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ukraine">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#India">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Panama">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SriLanka">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</longtermVersusShorttermOrientationValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Switzerland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ghana">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#KyrgyzRep">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Romania">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Portugal">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#GermanyEast">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Georgia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HongKong">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+    <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gossipers</contains>
+    <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priests and Priestesses</contains>
+    <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spies</contains>
+    <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Storytellers</contains>
+    <contains rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whisperers</contains>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Turkey">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Netherlands">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Poland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PuertoRico">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Taiwan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Jamaica">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Lithuania">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Algeria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Canada">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#USA">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Moldova">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Suriname">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CzechRep">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Thailand">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SaudiArabia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Rwanda">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Germany">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Russia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ElSalvador">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iceland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ethiopia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</uncertainityAvoidanceValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Serbia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Indonesia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DominicanRep">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NorthMacedonia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Israel">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</longtermVersusShorttermOrientationValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Senegal">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</longtermVersusShorttermOrientationValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Croatia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mali">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bulgaria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CostaRica">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#GreatBritain">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Singapore">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SãoToméandPríncipe">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Tunisia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Philippines">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Syria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</longtermVersusShorttermOrientationValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Honduras">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Uruguay">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ecuador">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Belarus">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kenya">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malawi">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Greece">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Argentina">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malaysia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Latvia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</uncertainityAvoidanceValue>
+    <longtermVersusShorttermOrientationValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</longtermVersusShorttermOrientationValue>
+    <indulgenceVersusRestraintValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</indulgenceVersusRestraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Fiji">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+    <powerDistanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</powerDistanceValue>
+    <individualismVersusCollectivismValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</individualismVersusCollectivismValue>
+    <masculinityVersusFemininityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</masculinityVersusFemininityValue>
+    <uncertainityAvoidanceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</uncertainityAvoidanceValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+  </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
