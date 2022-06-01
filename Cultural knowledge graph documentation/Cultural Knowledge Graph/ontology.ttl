@@ -1,0 +1,1856 @@
+@prefix : <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#> .
+
+<http://www.semanticweb.org/abhis/CulturalKnowledgeGraph> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#contains
+:contains rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasDimension
+:hasDimension rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#hasProperty
+:hasProperty rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#achievementVersusAscriptionValue
+:achievementVersusAscriptionValue rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#buildingTrustValue
+:buildingTrustValue rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#causalFactorsValue
+:causalFactorsValue rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#decisionMakingValue
+:decisionMakingValue rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#dimensionValue
+:dimensionValue rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#disagreeingValue
+:disagreeingValue rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#heroicFiguresValue
+:heroicFiguresValue rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#historyValue
+:historyValue rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#humaneOrientationValue
+:humaneOrientationValue rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#idealCultureValue
+:idealCultureValue rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCollectivismValue
+:individualismVersusCollectivismValue rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#individualismVersusCommunitarianismValue
+:individualismVersusCommunitarianismValue rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#indulgenceVersusRestraintValue
+:indulgenceVersusRestraintValue rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#internalDirectionVersusExternalDirectionValue
+:internalDirectionVersusExternalDirectionValue rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#interpretationValue
+:interpretationValue rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#leadershipHierarchyPowerValue
+:leadershipHierarchyPowerValue rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#longtermVersusShorttermOrientationValue
+:longtermVersusShorttermOrientationValue rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#masculinityVersusFemininityValue
+:masculinityVersusFemininityValue rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#negativeFeedbackValue
+:negativeFeedbackValue rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#neutralVersusEmotionalValue
+:neutralVersusEmotionalValue rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#operatingCultureValue
+:operatingCultureValue rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#outcomesValue
+:outcomesValue rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#performanceOrientationValue
+:performanceOrientationValue rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#persuasionValue
+:persuasionValue rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#powerDistanceValue
+:powerDistanceValue rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#propertyValue
+:propertyValue rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ritualsAndCeremoniesValue
+:ritualsAndCeremoniesValue rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#schedulingValue
+:schedulingValue rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :propertyValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#sequentialVersusSynchronousTimeValue
+:sequentialVersusSynchronousTimeValue rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#specificVersusDiffuseValue
+:specificVersusDiffuseValue rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#storiesValue
+:storiesValue rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#theCulturalNetworkValue
+:theCulturalNetworkValue rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#uncertainityAvoidanceValue
+:uncertainityAvoidanceValue rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#universalismVersusParticularismValue
+:universalismVersusParticularismValue rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf :dimensionValue .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#valuesAndBeliefValue
+:valuesAndBeliefValue rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf :dimensionValue .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation
+:AreaOfHumanMotivation rdf:type owl:Class ;
+                       rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country
+:Country rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Culture
+:Culture rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions
+:Dimensions rdf:type owl:Class ;
+            rdfs:subClassOf :Culture .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties
+:Properties rdf:type owl:Class ;
+            rdfs:subClassOf :Culture .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievementVersusAscription
+:AchievementVersusAscription rdf:type owl:NamedIndividual ,
+                                      :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AchievingExcellence
+:AchievingExcellence rdf:type owl:NamedIndividual ,
+                              :AreaOfHumanMotivation .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AfricaEast
+:AfricaEast rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 27 ;
+            :indulgenceVersusRestraintValue 40 ;
+            :longtermVersusShorttermOrientationValue 32 ;
+            :masculinityVersusFemininityValue 41 ;
+            :powerDistanceValue 64 ;
+            :uncertainityAvoidanceValue 52 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AfricaWest
+:AfricaWest rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 20 ;
+            :indulgenceVersusRestraintValue 78 ;
+            :longtermVersusShorttermOrientationValue 9 ;
+            :masculinityVersusFemininityValue 46 ;
+            :powerDistanceValue 77 ;
+            :uncertainityAvoidanceValue 54 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Albania
+:Albania rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 20 ;
+         :indulgenceVersusRestraintValue 15 ;
+         :longtermVersusShorttermOrientationValue 61 ;
+         :masculinityVersusFemininityValue 80 ;
+         :powerDistanceValue 90 ;
+         :uncertainityAvoidanceValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Algeria
+:Algeria rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 35 ;
+         :indulgenceVersusRestraintValue 32 ;
+         :longtermVersusShorttermOrientationValue 26 ;
+         :masculinityVersusFemininityValue 35 ;
+         :powerDistanceValue 80 ;
+         :uncertainityAvoidanceValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Andorra
+:Andorra rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :indulgenceVersusRestraintValue 65 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Angola
+:Angola rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 18 ;
+        :indulgenceVersusRestraintValue 83 ;
+        :longtermVersusShorttermOrientationValue 15 ;
+        :masculinityVersusFemininityValue 20 ;
+        :powerDistanceValue 83 ;
+        :uncertainityAvoidanceValue 60 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Arabcountries
+:Arabcountries rdf:type owl:NamedIndividual ,
+                        :Country ;
+               :individualismVersusCollectivismValue 38 ;
+               :indulgenceVersusRestraintValue 34 ;
+               :longtermVersusShorttermOrientationValue 23 ;
+               :masculinityVersusFemininityValue 53 ;
+               :powerDistanceValue 80 ;
+               :uncertainityAvoidanceValue 68 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Argentina
+:Argentina rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 46 ;
+           :indulgenceVersusRestraintValue 62 ;
+           :longtermVersusShorttermOrientationValue 20 ;
+           :masculinityVersusFemininityValue 56 ;
+           :powerDistanceValue 49 ;
+           :uncertainityAvoidanceValue 86 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Armenia
+:Armenia rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 22 ;
+         :indulgenceVersusRestraintValue 25 ;
+         :longtermVersusShorttermOrientationValue 61 ;
+         :masculinityVersusFemininityValue 50 ;
+         :powerDistanceValue 85 ;
+         :uncertainityAvoidanceValue 88 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Australia
+:Australia rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 90 ;
+           :indulgenceVersusRestraintValue 71 ;
+           :longtermVersusShorttermOrientationValue 21 ;
+           :masculinityVersusFemininityValue 61 ;
+           :powerDistanceValue 38 ;
+           :uncertainityAvoidanceValue 51 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Austria
+:Austria rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 55 ;
+         :indulgenceVersusRestraintValue 63 ;
+         :longtermVersusShorttermOrientationValue 60 ;
+         :masculinityVersusFemininityValue 79 ;
+         :powerDistanceValue 11 ;
+         :uncertainityAvoidanceValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AuthenticExpression
+:AuthenticExpression rdf:type owl:NamedIndividual ,
+                              :AreaOfHumanMotivation .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Azerbaijan
+:Azerbaijan rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 22 ;
+            :indulgenceVersusRestraintValue 22 ;
+            :longtermVersusShorttermOrientationValue 61 ;
+            :masculinityVersusFemininityValue 50 ;
+            :powerDistanceValue 85 ;
+            :uncertainityAvoidanceValue 88 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bangladesh
+:Bangladesh rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 20 ;
+            :indulgenceVersusRestraintValue 20 ;
+            :longtermVersusShorttermOrientationValue 47 ;
+            :masculinityVersusFemininityValue 55 ;
+            :powerDistanceValue 80 ;
+            :uncertainityAvoidanceValue 60 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Belarus
+:Belarus rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 25 ;
+         :indulgenceVersusRestraintValue 15 ;
+         :longtermVersusShorttermOrientationValue 81 ;
+         :masculinityVersusFemininityValue 20 ;
+         :powerDistanceValue 95 ;
+         :uncertainityAvoidanceValue 95 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Belgium
+:Belgium rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 75 ;
+         :indulgenceVersusRestraintValue 57 ;
+         :longtermVersusShorttermOrientationValue 82 ;
+         :masculinityVersusFemininityValue 54 ;
+         :powerDistanceValue 65 ;
+         :uncertainityAvoidanceValue 94 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BelgiumFrench
+:BelgiumFrench rdf:type owl:NamedIndividual ,
+                        :Country ;
+               :individualismVersusCollectivismValue 72 ;
+               :masculinityVersusFemininityValue 60 ;
+               :powerDistanceValue 67 ;
+               :uncertainityAvoidanceValue 93 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BelgiumNetherl
+:BelgiumNetherl rdf:type owl:NamedIndividual ,
+                         :Country ;
+                :individualismVersusCollectivismValue 78 ;
+                :masculinityVersusFemininityValue 43 ;
+                :powerDistanceValue 61 ;
+                :uncertainityAvoidanceValue 97 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bhutan
+:Bhutan rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 52 ;
+        :masculinityVersusFemininityValue 32 ;
+        :powerDistanceValue 94 ;
+        :uncertainityAvoidanceValue 28 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bolivia
+:Bolivia rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 10 ;
+         :indulgenceVersusRestraintValue 46 ;
+         :longtermVersusShorttermOrientationValue 25 ;
+         :masculinityVersusFemininityValue 42 ;
+         :powerDistanceValue 78 ;
+         :uncertainityAvoidanceValue 87 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BosniaandHerzegovina
+:BosniaandHerzegovina rdf:type owl:NamedIndividual ,
+                               :Country ;
+                      :individualismVersusCollectivismValue 22 ;
+                      :indulgenceVersusRestraintValue 44 ;
+                      :longtermVersusShorttermOrientationValue 70 ;
+                      :masculinityVersusFemininityValue 48 ;
+                      :powerDistanceValue 90 ;
+                      :uncertainityAvoidanceValue 87 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Brazil
+:Brazil rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 38 ;
+        :indulgenceVersusRestraintValue 59 ;
+        :longtermVersusShorttermOrientationValue 44 ;
+        :masculinityVersusFemininityValue 49 ;
+        :powerDistanceValue 69 ;
+        :uncertainityAvoidanceValue 76 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BuildingTrust
+:BuildingTrust rdf:type owl:NamedIndividual ,
+                        :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Bulgaria
+:Bulgaria rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 30 ;
+          :indulgenceVersusRestraintValue 16 ;
+          :longtermVersusShorttermOrientationValue 69 ;
+          :masculinityVersusFemininityValue 40 ;
+          :powerDistanceValue 70 ;
+          :uncertainityAvoidanceValue 85 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#BurkinaFaso
+:BurkinaFaso rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :individualismVersusCollectivismValue 15 ;
+             :indulgenceVersusRestraintValue 18 ;
+             :longtermVersusShorttermOrientationValue 27 ;
+             :masculinityVersusFemininityValue 50 ;
+             :powerDistanceValue 70 ;
+             :uncertainityAvoidanceValue 55 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Canada
+:Canada rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 80 ;
+        :indulgenceVersusRestraintValue 68 ;
+        :longtermVersusShorttermOrientationValue 36 ;
+        :masculinityVersusFemininityValue 52 ;
+        :powerDistanceValue 39 ;
+        :uncertainityAvoidanceValue 48 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CanadaFrench
+:CanadaFrench rdf:type owl:NamedIndividual ,
+                       :Country ;
+              :individualismVersusCollectivismValue 73 ;
+              :masculinityVersusFemininityValue 45 ;
+              :powerDistanceValue 54 ;
+              :uncertainityAvoidanceValue 60 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CapeVerde
+:CapeVerde rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 20 ;
+           :indulgenceVersusRestraintValue 83 ;
+           :longtermVersusShorttermOrientationValue 12 ;
+           :masculinityVersusFemininityValue 15 ;
+           :powerDistanceValue 75 ;
+           :uncertainityAvoidanceValue 40 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CausalFactors
+:CausalFactors rdf:type owl:NamedIndividual ,
+                        :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Chile
+:Chile rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 23 ;
+       :indulgenceVersusRestraintValue 68 ;
+       :longtermVersusShorttermOrientationValue 31 ;
+       :masculinityVersusFemininityValue 28 ;
+       :powerDistanceValue 63 ;
+       :uncertainityAvoidanceValue 86 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#China
+:China rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 20 ;
+       :indulgenceVersusRestraintValue 24 ;
+       :longtermVersusShorttermOrientationValue 87 ;
+       :masculinityVersusFemininityValue 66 ;
+       :powerDistanceValue 80 ;
+       :uncertainityAvoidanceValue 30 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Colombia
+:Colombia rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 13 ;
+          :indulgenceVersusRestraintValue 83 ;
+          :longtermVersusShorttermOrientationValue 13 ;
+          :masculinityVersusFemininityValue 64 ;
+          :powerDistanceValue 67 ;
+          :uncertainityAvoidanceValue 80 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CostaRica
+:CostaRica rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 15 ;
+           :masculinityVersusFemininityValue 21 ;
+           :powerDistanceValue 35 ;
+           :uncertainityAvoidanceValue 86 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CourageouslyEvolving
+:CourageouslyEvolving rdf:type owl:NamedIndividual ,
+                               :AreaOfHumanMotivation .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Croatia
+:Croatia rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 33 ;
+         :indulgenceVersusRestraintValue 33 ;
+         :longtermVersusShorttermOrientationValue 58 ;
+         :masculinityVersusFemininityValue 40 ;
+         :powerDistanceValue 73 ;
+         :uncertainityAvoidanceValue 80 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CultivatingCommunities
+:CultivatingCommunities rdf:type owl:NamedIndividual ,
+                                 :AreaOfHumanMotivation .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Cyprus
+:Cyprus rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :indulgenceVersusRestraintValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#CzechRep
+:CzechRep rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 58 ;
+          :indulgenceVersusRestraintValue 29 ;
+          :longtermVersusShorttermOrientationValue 70 ;
+          :masculinityVersusFemininityValue 57 ;
+          :powerDistanceValue 57 ;
+          :uncertainityAvoidanceValue 74 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DecisionMaking
+:DecisionMaking rdf:type owl:NamedIndividual ,
+                         :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Denmark
+:Denmark rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 74 ;
+         :indulgenceVersusRestraintValue 70 ;
+         :longtermVersusShorttermOrientationValue 35 ;
+         :masculinityVersusFemininityValue 16 ;
+         :powerDistanceValue 18 ;
+         :uncertainityAvoidanceValue 23 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Disagreeing
+:Disagreeing rdf:type owl:NamedIndividual ,
+                      :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#DominicanRep
+:DominicanRep rdf:type owl:NamedIndividual ,
+                       :Country ;
+              :individualismVersusCollectivismValue 30 ;
+              :indulgenceVersusRestraintValue 54 ;
+              :longtermVersusShorttermOrientationValue 13 ;
+              :masculinityVersusFemininityValue 65 ;
+              :powerDistanceValue 65 ;
+              :uncertainityAvoidanceValue 45 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ecuador
+:Ecuador rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 8 ;
+         :masculinityVersusFemininityValue 63 ;
+         :powerDistanceValue 78 ;
+         :uncertainityAvoidanceValue 67 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Egypt
+:Egypt rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 37 ;
+       :indulgenceVersusRestraintValue 4 ;
+       :longtermVersusShorttermOrientationValue 42 ;
+       :masculinityVersusFemininityValue 55 ;
+       :powerDistanceValue 80 ;
+       :uncertainityAvoidanceValue 55 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ElSalvador
+:ElSalvador rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 19 ;
+            :indulgenceVersusRestraintValue 89 ;
+            :longtermVersusShorttermOrientationValue 20 ;
+            :masculinityVersusFemininityValue 40 ;
+            :powerDistanceValue 66 ;
+            :uncertainityAvoidanceValue 94 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#EnsuringViability
+:EnsuringViability rdf:type owl:NamedIndividual ,
+                            :AreaOfHumanMotivation .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Estonia
+:Estonia rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 60 ;
+         :indulgenceVersusRestraintValue 16 ;
+         :longtermVersusShorttermOrientationValue 82 ;
+         :masculinityVersusFemininityValue 30 ;
+         :powerDistanceValue 40 ;
+         :uncertainityAvoidanceValue 60 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ethiopia
+:Ethiopia rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 20 ;
+          :indulgenceVersusRestraintValue 46 ;
+          :masculinityVersusFemininityValue 65 ;
+          :powerDistanceValue 70 ;
+          :uncertainityAvoidanceValue 55 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Fiji
+:Fiji rdf:type owl:NamedIndividual ,
+               :Country ;
+      :individualismVersusCollectivismValue 14 ;
+      :masculinityVersusFemininityValue 46 ;
+      :powerDistanceValue 78 ;
+      :uncertainityAvoidanceValue 48 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Finland
+:Finland rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 63 ;
+         :indulgenceVersusRestraintValue 57 ;
+         :longtermVersusShorttermOrientationValue 38 ;
+         :masculinityVersusFemininityValue 26 ;
+         :powerDistanceValue 33 ;
+         :uncertainityAvoidanceValue 59 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#France
+:France rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 71 ;
+        :indulgenceVersusRestraintValue 48 ;
+        :longtermVersusShorttermOrientationValue 63 ;
+        :masculinityVersusFemininityValue 43 ;
+        :powerDistanceValue 68 ;
+        :uncertainityAvoidanceValue 86 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Georgia
+:Georgia rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 41 ;
+         :indulgenceVersusRestraintValue 32 ;
+         :longtermVersusShorttermOrientationValue 38 ;
+         :masculinityVersusFemininityValue 55 ;
+         :powerDistanceValue 65 ;
+         :uncertainityAvoidanceValue 85 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Germany
+:Germany rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 67 ;
+         :indulgenceVersusRestraintValue 40 ;
+         :longtermVersusShorttermOrientationValue 83 ;
+         :masculinityVersusFemininityValue 66 ;
+         :powerDistanceValue 35 ;
+         :uncertainityAvoidanceValue 65 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#GermanyEast
+:GermanyEast rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :indulgenceVersusRestraintValue 34 ;
+             :longtermVersusShorttermOrientationValue 78 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ghana
+:Ghana rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 15 ;
+       :indulgenceVersusRestraintValue 72 ;
+       :longtermVersusShorttermOrientationValue 4 ;
+       :masculinityVersusFemininityValue 40 ;
+       :powerDistanceValue 80 ;
+       :uncertainityAvoidanceValue 65 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#GreatBritain
+:GreatBritain rdf:type owl:NamedIndividual ,
+                       :Country ;
+              :individualismVersusCollectivismValue 89 ;
+              :indulgenceVersusRestraintValue 69 ;
+              :longtermVersusShorttermOrientationValue 51 ;
+              :masculinityVersusFemininityValue 66 ;
+              :powerDistanceValue 35 ;
+              :uncertainityAvoidanceValue 35 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Greece
+:Greece rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 35 ;
+        :indulgenceVersusRestraintValue 50 ;
+        :longtermVersusShorttermOrientationValue 45 ;
+        :masculinityVersusFemininityValue 57 ;
+        :powerDistanceValue 60 ;
+        :uncertainityAvoidanceValue 112 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Guatemala
+:Guatemala rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 6 ;
+           :masculinityVersusFemininityValue 37 ;
+           :powerDistanceValue 95 ;
+           :uncertainityAvoidanceValue 98 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HeroicFigures
+:HeroicFigures rdf:type owl:NamedIndividual ,
+                        :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#History
+:History rdf:type owl:NamedIndividual ,
+                  :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Honduras
+:Honduras rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 20 ;
+          :masculinityVersusFemininityValue 40 ;
+          :powerDistanceValue 80 ;
+          :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HongKong
+:HongKong rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 25 ;
+          :indulgenceVersusRestraintValue 17 ;
+          :longtermVersusShorttermOrientationValue 61 ;
+          :masculinityVersusFemininityValue 57 ;
+          :powerDistanceValue 68 ;
+          :uncertainityAvoidanceValue 29 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#HumaneOrientation
+:HumaneOrientation rdf:type owl:NamedIndividual ,
+                            :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Hungary
+:Hungary rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 80 ;
+         :indulgenceVersusRestraintValue 31 ;
+         :longtermVersusShorttermOrientationValue 58 ;
+         :masculinityVersusFemininityValue 88 ;
+         :powerDistanceValue 46 ;
+         :uncertainityAvoidanceValue 82 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iceland
+:Iceland rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 60 ;
+         :indulgenceVersusRestraintValue 67 ;
+         :longtermVersusShorttermOrientationValue 28 ;
+         :masculinityVersusFemininityValue 10 ;
+         :powerDistanceValue 30 ;
+         :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IdealCulture
+:IdealCulture rdf:type owl:NamedIndividual ,
+                       :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#India
+:India rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 48 ;
+       :indulgenceVersusRestraintValue 26 ;
+       :longtermVersusShorttermOrientationValue 51 ;
+       :masculinityVersusFemininityValue 56 ;
+       :powerDistanceValue 77 ;
+       :uncertainityAvoidanceValue 40 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCollectivism
+:IndividualismVersusCollectivism rdf:type owl:NamedIndividual ,
+                                          :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndividualismVersusCommunitarianism
+:IndividualismVersusCommunitarianism rdf:type owl:NamedIndividual ,
+                                              :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Indonesia
+:Indonesia rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 14 ;
+           :indulgenceVersusRestraintValue 38 ;
+           :longtermVersusShorttermOrientationValue 62 ;
+           :masculinityVersusFemininityValue 46 ;
+           :powerDistanceValue 78 ;
+           :uncertainityAvoidanceValue 48 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#IndulgenceVersusRestraint
+:IndulgenceVersusRestraint rdf:type owl:NamedIndividual ,
+                                    :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#InternalDirectionVersusExternalDirection
+:InternalDirectionVersusExternalDirection rdf:type owl:NamedIndividual ,
+                                                   :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Interpretation
+:Interpretation rdf:type owl:NamedIndividual ,
+                         :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iran
+:Iran rdf:type owl:NamedIndividual ,
+               :Country ;
+      :individualismVersusCollectivismValue 41 ;
+      :indulgenceVersusRestraintValue 40 ;
+      :longtermVersusShorttermOrientationValue 14 ;
+      :masculinityVersusFemininityValue 43 ;
+      :powerDistanceValue 58 ;
+      :uncertainityAvoidanceValue 59 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Iraq
+:Iraq rdf:type owl:NamedIndividual ,
+               :Country ;
+      :individualismVersusCollectivismValue 31 ;
+      :indulgenceVersusRestraintValue 23 ;
+      :longtermVersusShorttermOrientationValue 12 ;
+      :masculinityVersusFemininityValue 53 ;
+      :powerDistanceValue 97 ;
+      :uncertainityAvoidanceValue 96 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ireland
+:Ireland rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 70 ;
+         :indulgenceVersusRestraintValue 65 ;
+         :longtermVersusShorttermOrientationValue 24 ;
+         :masculinityVersusFemininityValue 68 ;
+         :powerDistanceValue 28 ;
+         :uncertainityAvoidanceValue 35 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Israel
+:Israel rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 54 ;
+        :longtermVersusShorttermOrientationValue 38 ;
+        :masculinityVersusFemininityValue 47 ;
+        :powerDistanceValue 13 ;
+        :uncertainityAvoidanceValue 81 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Italy
+:Italy rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 76 ;
+       :indulgenceVersusRestraintValue 30 ;
+       :longtermVersusShorttermOrientationValue 61 ;
+       :masculinityVersusFemininityValue 70 ;
+       :powerDistanceValue 50 ;
+       :uncertainityAvoidanceValue 75 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Jamaica
+:Jamaica rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 39 ;
+         :masculinityVersusFemininityValue 68 ;
+         :powerDistanceValue 45 ;
+         :uncertainityAvoidanceValue 13 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Japan
+:Japan rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 46 ;
+       :indulgenceVersusRestraintValue 42 ;
+       :longtermVersusShorttermOrientationValue 88 ;
+       :masculinityVersusFemininityValue 95 ;
+       :powerDistanceValue 54 ;
+       :uncertainityAvoidanceValue 92 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Jordan
+:Jordan rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 30 ;
+        :indulgenceVersusRestraintValue 43 ;
+        :longtermVersusShorttermOrientationValue 16 ;
+        :masculinityVersusFemininityValue 45 ;
+        :powerDistanceValue 70 ;
+        :uncertainityAvoidanceValue 65 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kazakhstan
+:Kazakhstan rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 20 ;
+            :indulgenceVersusRestraintValue 22 ;
+            :longtermVersusShorttermOrientationValue 85 ;
+            :masculinityVersusFemininityValue 50 ;
+            :powerDistanceValue 88 ;
+            :uncertainityAvoidanceValue 88 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kenya
+:Kenya rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 25 ;
+       :masculinityVersusFemininityValue 60 ;
+       :powerDistanceValue 70 ;
+       :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Kuwait
+:Kuwait rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 25 ;
+        :masculinityVersusFemininityValue 40 ;
+        :powerDistanceValue 90 ;
+        :uncertainityAvoidanceValue 80 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#KyrgyzRep
+:KyrgyzRep rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :indulgenceVersusRestraintValue 39 ;
+           :longtermVersusShorttermOrientationValue 66 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Latvia
+:Latvia rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 70 ;
+        :indulgenceVersusRestraintValue 13 ;
+        :longtermVersusShorttermOrientationValue 69 ;
+        :masculinityVersusFemininityValue 9 ;
+        :powerDistanceValue 44 ;
+        :uncertainityAvoidanceValue 63 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LeadershipHierarchyPower
+:LeadershipHierarchyPower rdf:type owl:NamedIndividual ,
+                                   :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Lebanon
+:Lebanon rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 43 ;
+         :indulgenceVersusRestraintValue 10 ;
+         :longtermVersusShorttermOrientationValue 22 ;
+         :masculinityVersusFemininityValue 48 ;
+         :powerDistanceValue 62 ;
+         :uncertainityAvoidanceValue 57 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Libya
+:Libya rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 35 ;
+       :indulgenceVersusRestraintValue 74 ;
+       :longtermVersusShorttermOrientationValue 15 ;
+       :masculinityVersusFemininityValue 66 ;
+       :powerDistanceValue 100 ;
+       :uncertainityAvoidanceValue 67 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Lithuania
+:Lithuania rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 60 ;
+           :indulgenceVersusRestraintValue 16 ;
+           :longtermVersusShorttermOrientationValue 82 ;
+           :masculinityVersusFemininityValue 19 ;
+           :powerDistanceValue 42 ;
+           :uncertainityAvoidanceValue 65 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LivingPurpose
+:LivingPurpose rdf:type owl:NamedIndividual ,
+                        :AreaOfHumanMotivation .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#LongtermVersusShorttermOrientation
+:LongtermVersusShorttermOrientation rdf:type owl:NamedIndividual ,
+                                             :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Luxembourg
+:Luxembourg rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 60 ;
+            :indulgenceVersusRestraintValue 56 ;
+            :longtermVersusShorttermOrientationValue 64 ;
+            :masculinityVersusFemininityValue 50 ;
+            :powerDistanceValue 40 ;
+            :uncertainityAvoidanceValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malawi
+:Malawi rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 30 ;
+        :masculinityVersusFemininityValue 40 ;
+        :powerDistanceValue 70 ;
+        :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malaysia
+:Malaysia rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 26 ;
+          :indulgenceVersusRestraintValue 57 ;
+          :longtermVersusShorttermOrientationValue 41 ;
+          :masculinityVersusFemininityValue 50 ;
+          :powerDistanceValue 104 ;
+          :uncertainityAvoidanceValue 36 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mali
+:Mali rdf:type owl:NamedIndividual ,
+               :Country ;
+      :indulgenceVersusRestraintValue 43 ;
+      :longtermVersusShorttermOrientationValue 20 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Malta
+:Malta rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 59 ;
+       :indulgenceVersusRestraintValue 66 ;
+       :longtermVersusShorttermOrientationValue 47 ;
+       :masculinityVersusFemininityValue 47 ;
+       :powerDistanceValue 56 ;
+       :uncertainityAvoidanceValue 96 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#MasculinityVersusFemininity
+:MasculinityVersusFemininity rdf:type owl:NamedIndividual ,
+                                      :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mexico
+:Mexico rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 30 ;
+        :indulgenceVersusRestraintValue 97 ;
+        :longtermVersusShorttermOrientationValue 24 ;
+        :masculinityVersusFemininityValue 69 ;
+        :powerDistanceValue 81 ;
+        :uncertainityAvoidanceValue 82 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Moldova
+:Moldova rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 27 ;
+         :indulgenceVersusRestraintValue 19 ;
+         :longtermVersusShorttermOrientationValue 71 ;
+         :masculinityVersusFemininityValue 39 ;
+         :powerDistanceValue 90 ;
+         :uncertainityAvoidanceValue 95 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Montenegro
+:Montenegro rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 24 ;
+            :indulgenceVersusRestraintValue 20 ;
+            :longtermVersusShorttermOrientationValue 75 ;
+            :masculinityVersusFemininityValue 48 ;
+            :powerDistanceValue 88 ;
+            :uncertainityAvoidanceValue 90 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Morocco
+:Morocco rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 46 ;
+         :indulgenceVersusRestraintValue 25 ;
+         :longtermVersusShorttermOrientationValue 14 ;
+         :masculinityVersusFemininityValue 53 ;
+         :powerDistanceValue 70 ;
+         :uncertainityAvoidanceValue 68 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Mozambique
+:Mozambique rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 15 ;
+            :indulgenceVersusRestraintValue 80 ;
+            :longtermVersusShorttermOrientationValue 11 ;
+            :masculinityVersusFemininityValue 38 ;
+            :powerDistanceValue 85 ;
+            :uncertainityAvoidanceValue 44 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Namibia
+:Namibia rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 30 ;
+         :longtermVersusShorttermOrientationValue 35 ;
+         :masculinityVersusFemininityValue 40 ;
+         :powerDistanceValue 65 ;
+         :uncertainityAvoidanceValue 45 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NegativeFeedback
+:NegativeFeedback rdf:type owl:NamedIndividual ,
+                           :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Nepal
+:Nepal rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 30 ;
+       :masculinityVersusFemininityValue 40 ;
+       :powerDistanceValue 65 ;
+       :uncertainityAvoidanceValue 40 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Netherlands
+:Netherlands rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :individualismVersusCollectivismValue 80 ;
+             :indulgenceVersusRestraintValue 68 ;
+             :longtermVersusShorttermOrientationValue 67 ;
+             :masculinityVersusFemininityValue 14 ;
+             :powerDistanceValue 38 ;
+             :uncertainityAvoidanceValue 53 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NeutralVersusEmotional
+:NeutralVersusEmotional rdf:type owl:NamedIndividual ,
+                                 :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NewZealand
+:NewZealand rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 79 ;
+            :indulgenceVersusRestraintValue 75 ;
+            :longtermVersusShorttermOrientationValue 33 ;
+            :masculinityVersusFemininityValue 58 ;
+            :powerDistanceValue 22 ;
+            :uncertainityAvoidanceValue 49 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Nigeria
+:Nigeria rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 30 ;
+         :indulgenceVersusRestraintValue 84 ;
+         :longtermVersusShorttermOrientationValue 13 ;
+         :masculinityVersusFemininityValue 60 ;
+         :powerDistanceValue 80 ;
+         :uncertainityAvoidanceValue 55 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#NorthMacedonia
+:NorthMacedonia rdf:type owl:NamedIndividual ,
+                         :Country ;
+                :individualismVersusCollectivismValue 22 ;
+                :indulgenceVersusRestraintValue 35 ;
+                :longtermVersusShorttermOrientationValue 62 ;
+                :masculinityVersusFemininityValue 45 ;
+                :powerDistanceValue 90 ;
+                :uncertainityAvoidanceValue 87 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Norway
+:Norway rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 69 ;
+        :indulgenceVersusRestraintValue 55 ;
+        :longtermVersusShorttermOrientationValue 35 ;
+        :masculinityVersusFemininityValue 8 ;
+        :powerDistanceValue 31 ;
+        :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#OperatingCulture
+:OperatingCulture rdf:type owl:NamedIndividual ,
+                           :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Outcomes
+:Outcomes rdf:type owl:NamedIndividual ,
+                   :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Pakistan
+:Pakistan rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 14 ;
+          :indulgenceVersusRestraintValue 0 ;
+          :longtermVersusShorttermOrientationValue 50 ;
+          :masculinityVersusFemininityValue 50 ;
+          :powerDistanceValue 55 ;
+          :uncertainityAvoidanceValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Panama
+:Panama rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 11 ;
+        :masculinityVersusFemininityValue 44 ;
+        :powerDistanceValue 95 ;
+        :uncertainityAvoidanceValue 86 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Paraguay
+:Paraguay rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 12 ;
+          :indulgenceVersusRestraintValue 56 ;
+          :longtermVersusShorttermOrientationValue 20 ;
+          :masculinityVersusFemininityValue 40 ;
+          :powerDistanceValue 70 ;
+          :uncertainityAvoidanceValue 85 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PerformanceOrientation
+:PerformanceOrientation rdf:type owl:NamedIndividual ,
+                                 :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Persuasion
+:Persuasion rdf:type owl:NamedIndividual ,
+                     :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Peru
+:Peru rdf:type owl:NamedIndividual ,
+               :Country ;
+      :individualismVersusCollectivismValue 16 ;
+      :indulgenceVersusRestraintValue 46 ;
+      :longtermVersusShorttermOrientationValue 25 ;
+      :masculinityVersusFemininityValue 42 ;
+      :powerDistanceValue 64 ;
+      :uncertainityAvoidanceValue 87 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Philippines
+:Philippines rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :individualismVersusCollectivismValue 32 ;
+             :indulgenceVersusRestraintValue 42 ;
+             :longtermVersusShorttermOrientationValue 27 ;
+             :masculinityVersusFemininityValue 64 ;
+             :powerDistanceValue 94 ;
+             :uncertainityAvoidanceValue 44 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Poland
+:Poland rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 60 ;
+        :indulgenceVersusRestraintValue 29 ;
+        :longtermVersusShorttermOrientationValue 38 ;
+        :masculinityVersusFemininityValue 64 ;
+        :powerDistanceValue 68 ;
+        :uncertainityAvoidanceValue 93 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Portugal
+:Portugal rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 27 ;
+          :indulgenceVersusRestraintValue 33 ;
+          :longtermVersusShorttermOrientationValue 28 ;
+          :masculinityVersusFemininityValue 31 ;
+          :powerDistanceValue 63 ;
+          :uncertainityAvoidanceValue 104 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PowerDistance
+:PowerDistance rdf:type owl:NamedIndividual ,
+                        :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#PuertoRico
+:PuertoRico rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 27 ;
+            :indulgenceVersusRestraintValue 90 ;
+            :longtermVersusShorttermOrientationValue 0 ;
+            :masculinityVersusFemininityValue 56 ;
+            :powerDistanceValue 68 ;
+            :uncertainityAvoidanceValue 38 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Qatar
+:Qatar rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 25 ;
+       :masculinityVersusFemininityValue 55 ;
+       :powerDistanceValue 93 ;
+       :uncertainityAvoidanceValue 80 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#RitualsAndCeremonies
+:RitualsAndCeremonies rdf:type owl:NamedIndividual ,
+                               :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Romania
+:Romania rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 30 ;
+         :indulgenceVersusRestraintValue 20 ;
+         :longtermVersusShorttermOrientationValue 52 ;
+         :masculinityVersusFemininityValue 42 ;
+         :powerDistanceValue 90 ;
+         :uncertainityAvoidanceValue 90 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Russia
+:Russia rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 39 ;
+        :indulgenceVersusRestraintValue 20 ;
+        :longtermVersusShorttermOrientationValue 81 ;
+        :masculinityVersusFemininityValue 36 ;
+        :powerDistanceValue 93 ;
+        :uncertainityAvoidanceValue 95 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Rwanda
+:Rwanda rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :indulgenceVersusRestraintValue 37 ;
+        :longtermVersusShorttermOrientationValue 18 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SaudiArabia
+:SaudiArabia rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :individualismVersusCollectivismValue 48 ;
+             :indulgenceVersusRestraintValue 14 ;
+             :longtermVersusShorttermOrientationValue 27 ;
+             :masculinityVersusFemininityValue 43 ;
+             :powerDistanceValue 72 ;
+             :uncertainityAvoidanceValue 64 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Scheduling
+:Scheduling rdf:type owl:NamedIndividual ,
+                     :Properties .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Senegal
+:Senegal rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 25 ;
+         :longtermVersusShorttermOrientationValue 25 ;
+         :masculinityVersusFemininityValue 45 ;
+         :powerDistanceValue 70 ;
+         :uncertainityAvoidanceValue 55 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SequentialVersusSynchronousTime
+:SequentialVersusSynchronousTime rdf:type owl:NamedIndividual ,
+                                          :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Serbia
+:Serbia rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 25 ;
+        :indulgenceVersusRestraintValue 28 ;
+        :longtermVersusShorttermOrientationValue 52 ;
+        :masculinityVersusFemininityValue 43 ;
+        :powerDistanceValue 86 ;
+        :uncertainityAvoidanceValue 92 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SierraLeone
+:SierraLeone rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :individualismVersusCollectivismValue 20 ;
+             :masculinityVersusFemininityValue 40 ;
+             :powerDistanceValue 70 ;
+             :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Singapore
+:Singapore rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 20 ;
+           :indulgenceVersusRestraintValue 46 ;
+           :longtermVersusShorttermOrientationValue 72 ;
+           :masculinityVersusFemininityValue 48 ;
+           :powerDistanceValue 74 ;
+           :uncertainityAvoidanceValue 8 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SlovakRep
+:SlovakRep rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 52 ;
+           :indulgenceVersusRestraintValue 28 ;
+           :longtermVersusShorttermOrientationValue 77 ;
+           :masculinityVersusFemininityValue 110 ;
+           :powerDistanceValue 104 ;
+           :uncertainityAvoidanceValue 51 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Slovenia
+:Slovenia rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 27 ;
+          :indulgenceVersusRestraintValue 48 ;
+          :longtermVersusShorttermOrientationValue 49 ;
+          :masculinityVersusFemininityValue 19 ;
+          :powerDistanceValue 71 ;
+          :uncertainityAvoidanceValue 88 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthAfrica
+:SouthAfrica rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :indulgenceVersusRestraintValue 63 ;
+             :longtermVersusShorttermOrientationValue 34 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthAfricawhite
+:SouthAfricawhite rdf:type owl:NamedIndividual ,
+                           :Country ;
+                  :individualismVersusCollectivismValue 65 ;
+                  :indulgenceVersusRestraintValue 63 ;
+                  :longtermVersusShorttermOrientationValue 34 ;
+                  :masculinityVersusFemininityValue 63 ;
+                  :powerDistanceValue 49 ;
+                  :uncertainityAvoidanceValue 49 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SouthKorea
+:SouthKorea rdf:type owl:NamedIndividual ,
+                     :Country ;
+            :individualismVersusCollectivismValue 18 ;
+            :indulgenceVersusRestraintValue 29 ;
+            :longtermVersusShorttermOrientationValue 100 ;
+            :masculinityVersusFemininityValue 39 ;
+            :powerDistanceValue 60 ;
+            :uncertainityAvoidanceValue 85 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Spain
+:Spain rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 51 ;
+       :indulgenceVersusRestraintValue 44 ;
+       :longtermVersusShorttermOrientationValue 48 ;
+       :masculinityVersusFemininityValue 42 ;
+       :powerDistanceValue 57 ;
+       :uncertainityAvoidanceValue 86 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SpecificVersusDiffuse
+:SpecificVersusDiffuse rdf:type owl:NamedIndividual ,
+                                :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SriLanka
+:SriLanka rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 35 ;
+          :longtermVersusShorttermOrientationValue 45 ;
+          :masculinityVersusFemininityValue 10 ;
+          :powerDistanceValue 80 ;
+          :uncertainityAvoidanceValue 45 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Stories
+:Stories rdf:type owl:NamedIndividual ,
+                  :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SupportingRelationships
+:SupportingRelationships rdf:type owl:NamedIndividual ,
+                                  :AreaOfHumanMotivation .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Suriname
+:Suriname rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 47 ;
+          :masculinityVersusFemininityValue 37 ;
+          :powerDistanceValue 85 ;
+          :uncertainityAvoidanceValue 92 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Sweden
+:Sweden rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 71 ;
+        :indulgenceVersusRestraintValue 78 ;
+        :longtermVersusShorttermOrientationValue 53 ;
+        :masculinityVersusFemininityValue 5 ;
+        :powerDistanceValue 31 ;
+        :uncertainityAvoidanceValue 29 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Switzerland
+:Switzerland rdf:type owl:NamedIndividual ,
+                      :Country ;
+             :individualismVersusCollectivismValue 68 ;
+             :indulgenceVersusRestraintValue 66 ;
+             :longtermVersusShorttermOrientationValue 74 ;
+             :masculinityVersusFemininityValue 70 ;
+             :powerDistanceValue 34 ;
+             :uncertainityAvoidanceValue 58 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SwitzerlandFrench
+:SwitzerlandFrench rdf:type owl:NamedIndividual ,
+                            :Country ;
+                   :individualismVersusCollectivismValue 64 ;
+                   :masculinityVersusFemininityValue 58 ;
+                   :powerDistanceValue 70 ;
+                   :uncertainityAvoidanceValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SwitzerlandGerman
+:SwitzerlandGerman rdf:type owl:NamedIndividual ,
+                            :Country ;
+                   :individualismVersusCollectivismValue 69 ;
+                   :masculinityVersusFemininityValue 72 ;
+                   :powerDistanceValue 26 ;
+                   :uncertainityAvoidanceValue 56 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Syria
+:Syria rdf:type owl:NamedIndividual ,
+                :Country ;
+       :individualismVersusCollectivismValue 35 ;
+       :longtermVersusShorttermOrientationValue 30 ;
+       :masculinityVersusFemininityValue 52 ;
+       :powerDistanceValue 80 ;
+       :uncertainityAvoidanceValue 60 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#SãoToméandPríncipe
+:SãoToméandPríncipe rdf:type owl:NamedIndividual ,
+                             :Country ;
+                    :individualismVersusCollectivismValue 37 ;
+                    :indulgenceVersusRestraintValue 41 ;
+                    :longtermVersusShorttermOrientationValue 32 ;
+                    :masculinityVersusFemininityValue 24 ;
+                    :powerDistanceValue 75 ;
+                    :uncertainityAvoidanceValue 70 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Taiwan
+:Taiwan rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 17 ;
+        :indulgenceVersusRestraintValue 49 ;
+        :longtermVersusShorttermOrientationValue 93 ;
+        :masculinityVersusFemininityValue 45 ;
+        :powerDistanceValue 58 ;
+        :uncertainityAvoidanceValue 69 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Tanzania
+:Tanzania rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 25 ;
+          :indulgenceVersusRestraintValue 38 ;
+          :longtermVersusShorttermOrientationValue 34 ;
+          :masculinityVersusFemininityValue 40 ;
+          :powerDistanceValue 70 ;
+          :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Thailand
+:Thailand rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :individualismVersusCollectivismValue 20 ;
+          :indulgenceVersusRestraintValue 45 ;
+          :longtermVersusShorttermOrientationValue 32 ;
+          :masculinityVersusFemininityValue 34 ;
+          :powerDistanceValue 64 ;
+          :uncertainityAvoidanceValue 64 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TheCulturalNetwork
+:TheCulturalNetwork rdf:type owl:NamedIndividual ,
+                             :Dimensions ;
+                    :contains "Gossipers" ,
+                              "Priests and Priestesses" ,
+                              "Spies" ,
+                              "Storytellers" ,
+                              "Whisperers" .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#TrinidadandTobago
+:TrinidadandTobago rdf:type owl:NamedIndividual ,
+                            :Country ;
+                   :individualismVersusCollectivismValue 16 ;
+                   :indulgenceVersusRestraintValue 80 ;
+                   :longtermVersusShorttermOrientationValue 13 ;
+                   :masculinityVersusFemininityValue 58 ;
+                   :powerDistanceValue 47 ;
+                   :uncertainityAvoidanceValue 55 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Tunisia
+:Tunisia rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 40 ;
+         :masculinityVersusFemininityValue 40 ;
+         :powerDistanceValue 70 ;
+         :uncertainityAvoidanceValue 75 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Turkey
+:Turkey rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 37 ;
+        :indulgenceVersusRestraintValue 49 ;
+        :longtermVersusShorttermOrientationValue 46 ;
+        :masculinityVersusFemininityValue 45 ;
+        :powerDistanceValue 66 ;
+        :uncertainityAvoidanceValue 85 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#USA
+:USA rdf:type owl:NamedIndividual ,
+              :Country ;
+     :individualismVersusCollectivismValue 91 ;
+     :indulgenceVersusRestraintValue 68 ;
+     :longtermVersusShorttermOrientationValue 26 ;
+     :masculinityVersusFemininityValue 62 ;
+     :powerDistanceValue 40 ;
+     :uncertainityAvoidanceValue 46 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Uganda
+:Uganda rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :indulgenceVersusRestraintValue 52 ;
+        :longtermVersusShorttermOrientationValue 24 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Ukraine
+:Ukraine rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 25 ;
+         :indulgenceVersusRestraintValue 14 ;
+         :longtermVersusShorttermOrientationValue 86 ;
+         :masculinityVersusFemininityValue 27 ;
+         :powerDistanceValue 92 ;
+         :uncertainityAvoidanceValue 95 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UncertainityAvoidance
+:UncertainityAvoidance rdf:type owl:NamedIndividual ,
+                                :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UnitedArabEmirates
+:UnitedArabEmirates rdf:type owl:NamedIndividual ,
+                             :Country ;
+                    :individualismVersusCollectivismValue 36 ;
+                    :indulgenceVersusRestraintValue 22 ;
+                    :longtermVersusShorttermOrientationValue 22 ;
+                    :masculinityVersusFemininityValue 52 ;
+                    :powerDistanceValue 74 ;
+                    :uncertainityAvoidanceValue 66 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UnitedKingdom
+:UnitedKingdom rdf:type owl:NamedIndividual ,
+                        :Country ;
+               :individualismVersusCollectivismValue 89 ;
+               :indulgenceVersusRestraintValue 69 ;
+               :longtermVersusShorttermOrientationValue 51 ;
+               :masculinityVersusFemininityValue 66 ;
+               :powerDistanceValue 35 ;
+               :uncertainityAvoidanceValue 35 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#UniversalismVersusParticularism
+:UniversalismVersusParticularism rdf:type owl:NamedIndividual ,
+                                          :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Uruguay
+:Uruguay rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 36 ;
+         :indulgenceVersusRestraintValue 53 ;
+         :longtermVersusShorttermOrientationValue 26 ;
+         :masculinityVersusFemininityValue 38 ;
+         :powerDistanceValue 61 ;
+         :uncertainityAvoidanceValue 100 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#ValuesAndBelief
+:ValuesAndBelief rdf:type owl:NamedIndividual ,
+                          :Dimensions .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Venezuela
+:Venezuela rdf:type owl:NamedIndividual ,
+                    :Country ;
+           :individualismVersusCollectivismValue 12 ;
+           :indulgenceVersusRestraintValue 100 ;
+           :longtermVersusShorttermOrientationValue 16 ;
+           :masculinityVersusFemininityValue 73 ;
+           :powerDistanceValue 81 ;
+           :uncertainityAvoidanceValue 76 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Vietnam
+:Vietnam rdf:type owl:NamedIndividual ,
+                  :Country ;
+         :individualismVersusCollectivismValue 20 ;
+         :indulgenceVersusRestraintValue 35 ;
+         :longtermVersusShorttermOrientationValue 57 ;
+         :masculinityVersusFemininityValue 40 ;
+         :powerDistanceValue 70 ;
+         :uncertainityAvoidanceValue 30 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Zambia
+:Zambia rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :individualismVersusCollectivismValue 35 ;
+        :indulgenceVersusRestraintValue 42 ;
+        :longtermVersusShorttermOrientationValue 30 ;
+        :masculinityVersusFemininityValue 40 ;
+        :powerDistanceValue 60 ;
+        :uncertainityAvoidanceValue 50 .
+
+
+###  http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Zimbabwe
+:Zimbabwe rdf:type owl:NamedIndividual ,
+                   :Country ;
+          :indulgenceVersusRestraintValue 28 ;
+          :longtermVersusShorttermOrientationValue 15 .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
