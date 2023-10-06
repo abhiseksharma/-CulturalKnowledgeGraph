@@ -1,0 +1,26 @@
+Country(?x) ^ uncertainityAvoidanceValue(?x, ?y) ^ swrlb:lessThan(?y, 50) -> has(?x, LowUncertainityAvoidanceTendency)
+
+
+
+1. longtermVersusShorttermOrientationValue
+Country(?x) ^ longtermVersusShorttermOrientationValue(?x, ?y) ^ swrlb:lessThan(?y, 50) -> follows(?x, LongtermOrientation)
+
+Country(?x) ^ longtermVersusShorttermOrientationValue(?x, ?y) ^ swrlb:greaterThan(?y, 50) -> follows(?x, ShorttermOrientation)
+
+
+2. masculinityVersusFemininityValue
+Country(?x) ^ masculinityVersusFemininityValue(?x, ?y) ^ swrlb:lessThan(?y, 50) -> follows(?x, Masculinity)
+
+Country(?x) ^ masculinityVersusFemininityValue(?x, ?y) ^ swrlb:greaterThan(?y, 50) -> follows(?x, Femininity)
+
+
+3. individualismVersusCollectivismValue
+Country(?x) ^ individualismVersusCollectivismValue(?x, ?y) ^ swrlb:lessThan(?y, 50) -> follows(?x, Individualism)
+
+Country(?x) ^ individualismVersusCollectivismValue(?x, ?y) ^ swrlb:greaterThan(?y, 50) -> follows(?x, Collectivism)
+
+
+4. indulgenceVersusRestraintValue
+Country(?x) ^ indulgenceVersusRestraintValue(?x, ?y) ^ swrlb:lessThan(?y, 50) -> follows(?x, Indulgence)
+
+Country(?x) ^ indulgenceVersusRestraintValue(?x, ?y) ^ swrlb:greaterThan(?y, 50) -> follows(?x, Restraint)
