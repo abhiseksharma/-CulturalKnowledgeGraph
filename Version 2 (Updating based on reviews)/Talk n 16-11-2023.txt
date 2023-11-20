@@ -1,0 +1,45 @@
+conceptual schema of class, prop, instacne
+
+dimensions and properties wali table can be like
+
+
+dimentions| ----------------------------- sari dimenstions
+-----------------------------------------------------------
+Properties| ----------------------------- Sari properties
+
+
+normalise 0.5, yes, no, l,m 
+
+
+Ek jgah redundency remove krke jo dimensions ke name h wha bs define krdo hr model ke sath likhne ki zarurat nhi.
+Model ke nam ek bar mention krke khtm kro.
+
+  
+
+intro
+literature (determination of scope)
+	gaps
+our framework
+Usecases
+
+
+
+
+
+SUggestion X
+Recomendation {check}
+
+
+fig 2
+TBOX, ABOX (CUltural knowledge graph)
+
+
+
+USEcase
+
+
+
+put suggestion in vector
+
+
+recomendation (dial down wala part)| Explanation (Pura sugestion jo abhi h)

@@ -1,0 +1,178 @@
+Source and target country dimension value wise suggestions
+
+
+
+
+
+Power Distance Index (low versus high)
+a) < 50 meaning 
+	dimensionName = low power distance
+b) > 50 meaning
+	dimensionName = high power distance
+
+1. source > target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+2. source < target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+3. source > target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+4. source < target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+5. source and target value on different sides:
+if target > 50:
+	dimensionName = high power distance
+if target < 50:
+	dimensionName = low power distance
+[source] and [target] follows different values. So, [source] should learn the ways of [dimensionName] culture.
+
+
+
+
+Individualism Versus Collectivism
+a) < 50 meaning 
+	dimensionName = Individualism
+b) > 50 meaning
+	dimensionName = Collectivism
+
+1. source > target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+2. source < target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+3. source > target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+4. source < target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+5. source and target value on different sides:
+if target > 50:
+	dimensionName = Collectivism
+if target < 50:
+	dimensionName = Individualism
+[source] and [target] follows different values. So, [source] should learn the ways of [dimensionName] culture.
+
+
+
+
+
+Masculinity Versus Femininity
+a) < 50 meaning 
+	dimensionName = Masculinity
+b) > 50 meaning
+	dimensionName = Femininity
+
+1. source > target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+2. source < target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+3. source > target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+4. source < target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+
+5. source and target value on different sides:
+if target > 50:
+	dimensionName = Femininity
+if target < 50:
+	dimensionName = Masculinity
+[source] and [target] follows different values. So, [source] should learn the ways of [dimensionName] culture.
+
+
+
+
+
+Uncertainty Avoidance Index
+a) < 50 meaning 
+	dimensionName = low Uncertainty Avoidance tendency
+b) > 50 meaning
+	dimensionName = high Uncertainty Avoidance tendency
+
+1. source > target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+2. source < target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+3. source > target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+4. source < target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+
+5. source and target value on different sides:
+if target > 50:
+	dimensionName = high Uncertainty Avoidance tendency
+if target < 50:
+	dimensionName = low Uncertainty Avoidance tendency
+[source] and [target] follows different values. So, [source] should learn the ways of [dimensionName] culture.
+
+
+
+
+
+Long- Versus Short-Term Orientation
+a) < 50 meaning 
+	dimensionName = Short-Term Orientation
+b) > 50 meaning
+	dimensionName = Long-Term Orientation
+
+1. source > target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+2. source < target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+3. source > target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+4. source < target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+
+5. source and target value on different sides:
+if target > 50:
+	dimensionName = Long-Term Orientation
+if target < 50:
+	dimensionName = Short-Term Orientation
+[source] and [target] follows different values. So, [source] should learn the ways of [dimensionName] culture.
+
+
+
+
+
+Indulgence Versus Restraint
+a) < 50 meaning
+	dimensionName = Indulgence
+b) > 50 meaning
+	dimensionName = Restraint
+
+1. source > target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+2. source < target value on the same side (<50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+3. source > target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it down a bit to cater for the [target] culture.
+
+4. source < target value on the same side (>50):
+Although [source] and [target] follows [dimensionName] values but [source] should diel it up a bit to cater for the [target] culture.
+
+
+5. source and target value on different sides:
+if target > 50:
+	dimensionName = Restraint
+if target < 50:
+	dimensionName = Indulgence
+[source] and [target] follows different values. So, [source] should learn the ways of [dimensionName] culture.
