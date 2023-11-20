@@ -71,7 +71,17 @@
 
     <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#has -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#has"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#has">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
     
 
 
@@ -445,9 +455,7 @@
 
     <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#AreaOfHumanMotivation"/>
     
 
 
@@ -455,6 +463,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Country">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
     </owl:Class>
     
 
@@ -470,14 +480,7 @@
     <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -485,14 +488,7 @@
     <!-- http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Dimensions"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/abhis/CulturalKnowledgeGraph#Properties"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
